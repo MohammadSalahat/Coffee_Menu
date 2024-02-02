@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    max-width: 500px;
+    
+    margin: 50px auto;
+    text-align: center;
+}
+
+.menu-title {
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.drink-item {
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.drink-item img {
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.drink-details {
+    padding: 20px;
+}
+
+.drink-name {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.drink-price {
+    color: #007bff;
+    font-size: 18px;
+    margin: 0;
+}
+.center-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.savory-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #4CAF50; /* Green color, you can customize this */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.savory-button span {
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.savory-button:hover {
+    background-color: #45a049; /* Darker green color on hover, you can customize this */
+}
