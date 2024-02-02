@@ -1,1 +1,92 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+}
 
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed; /* Change position to fixed */
+    width: 100%; /* Add width to take full width of the viewport */
+    top: 0; /* Stick to the top */
+    z-index: 1000; /* Set z-index to ensure it appears above other elements */
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    max-width: 20%;
+    max-height: 50px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+}
+
+main img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#about {
+    padding: 2em;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    text-align: center;
+    margin: 2em;
+    padding-top: 80px; /* Add padding-top to prevent content from being hidden behind the fixed header */
+}
+
+nav {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+}
+
+li {
+    margin: 0 20px; 
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+a:hover {
+    color: #ffcc00;
+}
